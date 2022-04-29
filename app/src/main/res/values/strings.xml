@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProMusic By Meraz</string>
+    <string-array name="feedback_star">
+        <item>1 star</item>
+        <item>2 star</item>
+        <item>3 star</item>
+        <item>4 star</item>
+        <item>5 star</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

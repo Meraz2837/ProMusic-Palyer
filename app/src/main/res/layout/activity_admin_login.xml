@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdminLogin">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:paddingTop="35sp"
+        android:paddingBottom="35sp"
+        android:layout_margin="10sp"
+        android:background="@drawable/listitembg">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome Admin"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="32sp"/>
+        <EditText
+            android:id="@+id/usernameID"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:background="@drawable/listitembg"
+            android:hint="Enter Username"
+            android:textColorHint="#C4CFCFCF"
+            android:padding="10sp"/>
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/PasswordID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:background="@drawable/listitembg"
+            android:hint="Enter Password"
+            android:textColorHint="#C4CFCFCF"
+            android:inputType="textPassword"
+            android:padding="10sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Panel"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:backgroundTint="@color/white"
+            android:onClick="AdminPanel"
+            android:textColor="@color/black"
+            android:padding="5sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

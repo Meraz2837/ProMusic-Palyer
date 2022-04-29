@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569192894682",
+    "project_id": "promusic-palyer",
+    "storage_bucket": "promusic-palyer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569192894682:android:14c465b0fea0550ad015e3",
+        "android_client_info": {
+          "package_name": "com.example.promusicpalyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569192894682-i6frmhn91i7ipbusv9ludoomtf8jev85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfAj2tBYm-R1ybCputjduk5RKGKXftD7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569192894682-i6frmhn91i7ipbusv9ludoomtf8jev85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

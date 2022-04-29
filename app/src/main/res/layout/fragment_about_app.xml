@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutApp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ProMusic app By Meraz is a app for listening musics. You can enhance your mind with the app built by Meaningless Compiler Group, developed by Meraz (Md. Mazbaur Rashid). Please provide feedback and help us with the update may required in future.\n\nApp Version: 22.04.10\nRequired Android version: 7.0 or up."
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"/>
+
+
+</FrameLayout>

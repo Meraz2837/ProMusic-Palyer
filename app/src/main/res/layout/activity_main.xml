@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/SongLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Songs"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginVertical="10dp"/>
+
+    <ListView
+        android:id="@+id/ListViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/SongLabel"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.sp" />
+
+</RelativeLayout>

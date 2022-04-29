@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccessInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/mazbaur"
+            />
+        <TextView
+            android:id="@+id/adnameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:paddingLeft="5sp"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listdata"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        />
+
+</LinearLayout>
